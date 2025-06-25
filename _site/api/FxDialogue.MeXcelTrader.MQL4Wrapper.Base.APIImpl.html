@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class APIImpl | Mexcel Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class APIImpl | Mexcel Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Mexcel Documentation">
+            Mexcel Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl">
+
+
+
+  <h1 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl" class="text-break">
+Class APIImpl  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="FxDialogue.html">FxDialogue</a>.<a class="xref" href="FxDialogue.MeXcelTrader.html">MeXcelTrader</a>.<a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.html">MQL4Wrapper</a>.<a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.html">Base</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>FxDialogue.MeXcelTrader.MQL4Wrapper.Base.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class APIImpl : API, IEventsHandler</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">APIImpl</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.API.html">API</a></div>
+      <div><a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.IEventsHandler.html">IEventsHandler</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl__ctor_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.#ctor*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl__ctor_FxDialogue_MeXcelTrader_MQL4Wrapper_Base_CallsQueue_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.#ctor(FxDialogue.MeXcelTrader.MQL4Wrapper.Base.CallsQueue)">
+  APIImpl(CallsQueue)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public APIImpl(CallsQueue callsQueue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callsQueue</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.CallsQueue.html">CallsQueue</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_AccountBalance_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.AccountBalance*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_AccountBalance" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.AccountBalance">
+  AccountBalance()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double AccountBalance()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_AccountName_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.AccountName*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_AccountName" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.AccountName">
+  AccountName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AccountName()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_AccountNumber_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.AccountNumber*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_AccountNumber" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.AccountNumber">
+  AccountNumber()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long AccountNumber()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_AccountServer_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.AccountServer*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_AccountServer" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.AccountServer">
+  AccountServer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AccountServer()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetAccountDynamicInfo_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetAccountDynamicInfo*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetAccountDynamicInfo" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetAccountDynamicInfo">
+  GetAccountDynamicInfo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AccountDynamicInfo GetAccountDynamicInfo()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.AccountDynamicInfo.html">AccountDynamicInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetAccountInfo_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetAccountInfo*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetAccountInfo" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetAccountInfo">
+  GetAccountInfo()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AccountInfo GetAccountInfo()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.AccountInfo.html">AccountInfo</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetCurrency_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetCurrency*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetCurrency_System_String_FxDialogue_MeXcelTrader_MQL4Wrapper_API_TimeFrame_System_Int64_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetCurrency(System.String,FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame,System.Int64)">
+  GetCurrency(string, TimeFrame, long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CurrencyValue GetCurrency(string symbol, TimeFrame timeFrame, long shift)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>timeFrame</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame.html">TimeFrame</a></dt>
+    <dd></dd>
+    <dt><code>shift</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.CurrencyValue.html">CurrencyValue</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetDynamicHistory_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetDynamicHistory*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetDynamicHistory__1_System_String_FxDialogue_MeXcelTrader_MQL4Wrapper_API_TimeFrame_System_Int64_System_Int64_FxDialogue_MeXcelTrader_MQL4Wrapper_API_TimeseriesType_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetDynamicHistory``1(System.String,FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame,System.Int64,System.Int64,FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeseriesType)">
+  GetDynamicHistory&lt;TValue&gt;(string, TimeFrame, long, long, TimeseriesType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;HistoryItem&lt;TValue&gt;&gt; GetDynamicHistory&lt;TValue&gt;(string symbol, TimeFrame timeFrame, long shiftFirst, long shiftLast, TimeseriesType timeseriesType) where TValue : ISerializable, new()</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>timeFrame</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame.html">TimeFrame</a></dt>
+    <dd></dd>
+    <dt><code>shiftFirst</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>shiftLast</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>timeseriesType</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeseriesType.html">TimeseriesType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.HistoryItem-1.html">HistoryItem</a>&lt;TValue&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetHistoryItem_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetHistoryItem*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetHistoryItem__1_System_String_FxDialogue_MeXcelTrader_MQL4Wrapper_API_TimeFrame_System_Int64_FxDialogue_MeXcelTrader_MQL4Wrapper_API_TimeseriesType_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetHistoryItem``1(System.String,FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame,System.Int64,FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeseriesType)">
+  GetHistoryItem&lt;TValue&gt;(string, TimeFrame, long, TimeseriesType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HistoryItem&lt;TValue&gt; GetHistoryItem&lt;TValue&gt;(string symbol, TimeFrame timeFrame, long shift, TimeseriesType timeseriesType) where TValue : ISerializable, new()</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>timeFrame</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame.html">TimeFrame</a></dt>
+    <dd></dd>
+    <dt><code>shift</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>timeseriesType</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeseriesType.html">TimeseriesType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.HistoryItem-1.html">HistoryItem</a>&lt;TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetIndicatorValue_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetIndicatorValue*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetIndicatorValue_System_String_FxDialogue_MeXcelTrader_MQL4Wrapper_API_TimeFrame_System_Int64_FxDialogue_MeXcelTrader_MQL4Wrapper_API_Indicator_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetIndicatorValue(System.String,FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame,System.Int64,FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicator)">
+  GetIndicatorValue(string, TimeFrame, long, Indicator)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double GetIndicatorValue(string symbol, TimeFrame timeFrame, long shift, Indicator indicator)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>timeFrame</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame.html">TimeFrame</a></dt>
+    <dd></dd>
+    <dt><code>shift</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>indicator</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicator.html">Indicator</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetOrder_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetOrder*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetOrder_System_Int64_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetOrder(System.Int64)">
+  GetOrder(long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Order GetOrder(long ticket)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ticket</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.Order.html">Order</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetOrders_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetOrders*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetOrders_System_Collections_Generic_HashSet_System_Int64__" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetOrders(System.Collections.Generic.HashSet{System.Int64})">
+  GetOrders(HashSet&lt;long&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Order&gt; GetOrders(HashSet&lt;long&gt; resultTickets)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>resultTickets</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1">HashSet</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.Order.html">Order</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetQuote_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetQuote*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetQuote_System_String_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetQuote(System.String)">
+  GetQuote(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quote GetQuote(string symbol)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.Quote.html">Quote</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetStaticHistory_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetStaticHistory*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_GetStaticHistory__1_System_String_FxDialogue_MeXcelTrader_MQL4Wrapper_API_TimeFrame_System_DateTime_System_DateTime_FxDialogue_MeXcelTrader_MQL4Wrapper_API_TimeseriesType_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.GetStaticHistory``1(System.String,FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame,System.DateTime,System.DateTime,FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeseriesType)">
+  GetStaticHistory&lt;TValue&gt;(string, TimeFrame, DateTime, DateTime, TimeseriesType)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticHistory&lt;TValue&gt; GetStaticHistory&lt;TValue&gt;(string symbol, TimeFrame timeFrame, DateTime begin, DateTime end, TimeseriesType timeseriesType) where TValue : ISerializable, new()</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>timeFrame</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame.html">TimeFrame</a></dt>
+    <dd></dd>
+    <dt><code>begin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+    <dt><code>end</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+    <dt><code>timeseriesType</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeseriesType.html">TimeseriesType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.StaticHistory-1.html">StaticHistory</a>&lt;TValue&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TValue</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_OrderModify_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.OrderModify*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_OrderModify_System_Int64_System_Double_System_Double_System_Double_System_DateTime_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.OrderModify(System.Int64,System.Double,System.Double,System.Double,System.DateTime)">
+  OrderModify(long, double, double, double, DateTime)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool OrderModify(long ticket, double price, double stoploss, double takeprofit, DateTime expiration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ticket</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>stoploss</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>takeprofit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>expiration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_OrderRemove_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.OrderRemove*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_OrderRemove_System_Int64_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.OrderRemove(System.Int64)">
+  OrderRemove(long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OrderRemove(long ticket)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ticket</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_OrderSend_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.OrderSend*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_OrderSend_System_String_FxDialogue_MeXcelTrader_MQL4Wrapper_API_OrderType_System_Double_System_Double_System_Int64_System_Double_System_Double_System_String_System_Int64_System_DateTime_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.OrderSend(System.String,FxDialogue.MeXcelTrader.MQL4Wrapper.API.OrderType,System.Double,System.Double,System.Int64,System.Double,System.Double,System.String,System.Int64,System.DateTime)">
+  OrderSend(string, OrderType, double, double, long, double, double, string, long, DateTime)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long OrderSend(string symbol, OrderType cmd, double volume, double price, long slippage, double stoploss, double takeprofit, string comment, long magic, DateTime expiration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>cmd</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.OrderType.html">OrderType</a></dt>
+    <dd></dd>
+    <dt><code>volume</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>slippage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>stoploss</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>takeprofit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>comment</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>magic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>expiration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_Print_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.Print*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_Print_System_String_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.Print(System.String)">
+  Print(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Print(string s)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_TerminalDataPath_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.TerminalDataPath*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_TerminalDataPath" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.TerminalDataPath">
+  TerminalDataPath()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TerminalDataPath()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_TerminalName_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.TerminalName*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_TerminalName" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.TerminalName">
+  TerminalName()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TerminalName()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_TerminalPath_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.TerminalPath*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_TerminalPath" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.TerminalPath">
+  TerminalPath()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TerminalPath()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_iTime_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.iTime*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_iTime_System_String_FxDialogue_MeXcelTrader_MQL4Wrapper_API_TimeFrame_System_Int64_" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.iTime(System.String,FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame,System.Int64)">
+  iTime(string, TimeFrame, long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTime iTime(string symbol, TimeFrame timeFrame, long shift)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>timeFrame</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame.html">TimeFrame</a></dt>
+    <dd></dd>
+    <dt><code>shift</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_Start" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.Start">
+  Start
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler Start</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h3 id="FxDialogue_MeXcelTrader_MQL4Wrapper_Base_APIImpl_Stop" data-uid="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.Stop">
+  Stop
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler Stop</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

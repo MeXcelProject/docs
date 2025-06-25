@@ -1,0 +1,3562 @@
+{
+  "source_base_path": "C:/Users/buxfo/source/repos/m64/MexcelTrader -Create Installers LOGIN",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Common.Dirs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Common.Dirs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Common.Dirs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Common.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Common",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.API.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.API",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.API.yml\" sourcestartlinenumber=\"1\">MQL4 API functions. All methods are thread-safe.\nAny function call may throw APINotAvailable, so caller <em sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.API.yml\" sourcestartlinenumber=\"2\">always</em> must\nhandle it properly. There is no way to handle event when API is\nabout to become unavailable, but yet still available. It just suddenly\ndies, because of MQL4 imported functions call specifics\n(see FxDialogue.MeXcelTrader.MQL4Wrapper.MT4Expert for more details).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.APINotAvailable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.APINotAvailable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.APINotAvailable",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.APINotAvailable.yml\" sourcestartlinenumber=\"1\">Thrown on attempt to call API function when API is not available,\ni.e. not between API.Start and API.Stop events raised\n(see description of these events for more details).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.AccountDynamicInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.AccountDynamicInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.AccountDynamicInfo",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.AccountDynamicInfo.yml\" sourcestartlinenumber=\"1\">Account dynamic information which changes in realtime.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.AccountInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.AccountInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.AccountInfo",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.AccountInfo.yml\" sourcestartlinenumber=\"1\">Account persistent information, could be changed only on connection\nreestablishment.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Consts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Consts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Consts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Currency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Currency.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Currency",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.CurrencyValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.CurrencyValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.CurrencyValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.HistoryItem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.HistoryItem-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.HistoryItem<TValue>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.AC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.AC.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.AC",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.AD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.AD.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.AD",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.ADX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.ADX.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.ADX",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.AO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.AO.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.AO",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.ATR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.ATR.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.ATR",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Alligator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Alligator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Alligator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.AlligatorBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.AlligatorBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.AlligatorBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.BWMFI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.BWMFI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.BWMFI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Bands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Bands.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Bands",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.BearsPower.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.BearsPower.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.BearsPower",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.BullsPower.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.BullsPower.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.BullsPower",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.CCI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.CCI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.CCI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Custom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Custom.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Custom",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.DeMarker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.DeMarker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.DeMarker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Envelopes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Envelopes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Envelopes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Force.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Force.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Force",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Fractals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Fractals.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Fractals",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Gator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Gator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Gator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Ichimoku.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Ichimoku.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Ichimoku",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.MA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.MA.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.MA",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.MACD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.MACD.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.MACD",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.MFI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.MFI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.MFI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Momentum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Momentum.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Momentum",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.OBV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.OBV.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.OBV",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.OsMA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.OsMA.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.OsMA",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.RSI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.RSI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.RSI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.RVI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.RVI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.RVI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.SAR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.SAR.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.SAR",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.StdDev.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.StdDev.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.StdDev",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Stochastic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Stochastic.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.Stochastic",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.WPR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.WPR.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.WPR",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicators",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.MQL4Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.MQL4Error.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.MQL4Error",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.MQL4Error.yml\" sourcestartlinenumber=\"1\">MQL4 error exception, includes MQL4 error code.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.MQL4ErrorCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.MQL4ErrorCode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.MQL4ErrorCode",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.MQL4ErrorCode.yml\" sourcestartlinenumber=\"1\">MQL4 error codes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeADX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeADX.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeADX",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeADX.yml\" sourcestartlinenumber=\"1\">iADX indicator modes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeAlligator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeAlligator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeAlligator",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeAlligator.yml\" sourcestartlinenumber=\"1\">Identifier of a line of the Alligator indicator.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeCustom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeCustom.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeCustom",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeCustom.yml\" sourcestartlinenumber=\"1\">Custom indicator mode.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeIchimoku.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeIchimoku.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeIchimoku",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeIchimoku.yml\" sourcestartlinenumber=\"1\">Ichimoku Kinko Hyo mode.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeMA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeMA.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeMA",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeMA.yml\" sourcestartlinenumber=\"1\">Moving Average calculation method.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeMS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeMS.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeMS",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeMS.yml\" sourcestartlinenumber=\"1\">Common mode applied to iMACD(), iRVI() and iStochastic() indicators.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeUL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeUL.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeUL",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.ModeUL.yml\" sourcestartlinenumber=\"1\">Common mode applied to iBands(), iEnvelopes(), iEnvelopesOnArray(), iFractals() and iGator.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Order.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Order",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Order.yml\" sourcestartlinenumber=\"1\">MQL4 order information.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.OrderPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.OrderPool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.OrderPool",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.OrderPool.yml\" sourcestartlinenumber=\"1\">MQL4 orders pool (either trades or history).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.OrderType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.OrderType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.OrderType",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.OrderType.yml\" sourcestartlinenumber=\"1\">MQL4 order type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Price.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Price.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Price",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Price.yml\" sourcestartlinenumber=\"1\">Applied price.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.PriceField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.PriceField.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.PriceField",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.PriceField.yml\" sourcestartlinenumber=\"1\">Price field used in iStochastic indicator.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Quote.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Quote.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.Quote",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.Quote.yml\" sourcestartlinenumber=\"1\">Quote data.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.StaticHistory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.StaticHistory-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.StaticHistory<TValue>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrameExact.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrameExact.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrameExact",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeseriesType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeseriesType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeseriesType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.API.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.API",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.Base.APIImpl",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.CallsQueue.Call.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.CallsQueue.Call.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.Base.CallsQueue.Call",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.CallsQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.CallsQueue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.Base.CallsQueue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.Funcs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.Funcs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.Base.Funcs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.IEventsHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.IEventsHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.Base.IEventsHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.MyDdeServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.MyDdeServer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.Base.MyDdeServer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.Wrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.Wrapper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.Base.Wrapper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.MQL4Wrapper.Base.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.MQL4Wrapper.Base",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.CustomIndicators.CustomIndicator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.CustomIndicators.CustomIndicator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Base.CustomIndicators.CustomIndicator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.CustomIndicators.Param.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.CustomIndicators.Param.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Base.CustomIndicators.Param",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.CustomIndicators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.CustomIndicators.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Base.CustomIndicators",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.MarketUpdates.UpdateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.MarketUpdates.UpdateEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Base.MarketUpdates.UpdateEventArgs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.MarketUpdates.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.MarketUpdates.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Base.MarketUpdates",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.Monitor.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.Monitor.Config.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Base.Monitor.Config",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.Monitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.Monitor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Base.Monitor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.MonitorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.MonitorFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Base.MonitorFactory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.SymbolsReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.SymbolsReader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Base.SymbolsReader",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Base.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Base",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.CustomIndicatorDescription.SerializationTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.CustomIndicatorDescription.SerializationTag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Data.CustomIndicatorDescription.SerializationTag",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.CustomIndicatorDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.CustomIndicatorDescription.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Data.CustomIndicatorDescription",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.IItemProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.IItemProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Data.IItemProperties",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.ItemData-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.ItemData-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Data.ItemData<TValue>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.MetaTraderInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.MetaTraderInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Data.MetaTraderInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.ParameterDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.ParameterDescription.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Data.ParameterDescription",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.ParameterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.ParameterType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Data.ParameterType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeCurrencyProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeCurrencyProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeCurrencyProperties",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeIndicatorProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeIndicatorProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeIndicatorProperties",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeQuoteProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeQuoteProperties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeQuoteProperties",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Data.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Data",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Exceptions.ProviderAlreadyConnected.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Exceptions.ProviderAlreadyConnected.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Exceptions.ProviderAlreadyConnected",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.Monitor.Remoting.Exceptions.ProviderAlreadyConnected.yml\" sourcestartlinenumber=\"1\">Thrown by workbook on attempt to create connection for already connected\nprovider.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Exceptions.SymbolsReaderException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Exceptions.SymbolsReaderException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Exceptions.SymbolsReaderException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.yml\" sourcestartlinenumber=\"1\">Generic interface of monitor endpoint of monitor-workbook connection\n(remoting independant).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.IWorkbookEndpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.IWorkbookEndpoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.IWorkbookEndpoint",
+      "Summary": "<p sourcefile=\"api/FxDialogue.MeXcelTrader.Monitor.Remoting.IWorkbookEndpoint.yml\" sourcestartlinenumber=\"1\">Generic interface of workbook endpoint of monitor-workbook connection\n(remoting independant).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Traits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.Traits.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting.Traits",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Monitor.Remoting.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Monitor.Remoting",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.CellRefEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.CellRefEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.CellRefEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ConnectForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ConnectForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.ConnectForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.CustomIndicatorSetupForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.CustomIndicatorSetupForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.CustomIndicatorSetupForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.CustomIndicatorsForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.CustomIndicatorsForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.CustomIndicatorsForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ErrorOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ErrorOutput.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.ErrorOutput",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.Frontend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.Frontend.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.Frontend",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.HistoryCurrencyEditorForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.HistoryCurrencyEditorForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.HistoryCurrencyEditorForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.HistoryIndicatorEditorForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.HistoryIndicatorEditorForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.HistoryIndicatorEditorForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.HistoryTableCommonsEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.HistoryTableCommonsEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.HistoryTableCommonsEditor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.IObjectList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.IObjectList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.IObjectList",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.IOrderedTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.IOrderedTable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.IOrderedTable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.IndicatorHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.IndicatorHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.IndicatorHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.IndicatorPicker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.IndicatorPicker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.IndicatorPicker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ObjectListDropdown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ObjectListDropdown.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.ObjectListDropdown",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.OrderedTableView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.OrderedTableView.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.OrderedTableView",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.PropertiesObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.PropertiesObject.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.PropertiesObject",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ProviderPicker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ProviderPicker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.ProviderPicker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ProviderPickerSingle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ProviderPickerSingle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.ProviderPickerSingle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ProvidersConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ProvidersConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.ProvidersConfig",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ProvidersConfigSingle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ProvidersConfigSingle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.ProvidersConfigSingle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeCurrencies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeCurrencies.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeCurrencies",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeCurrenciesForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeCurrenciesForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeCurrenciesForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeIndicators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeIndicators.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeIndicators",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeIndicatorsForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeIndicatorsForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeIndicatorsForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeQuotes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeQuotes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeQuotes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeQuotesForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeQuotesForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.RealtimeQuotesForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ShellStockIcons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.ShellStockIcons.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.ShellStockIcons",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.SymbolsList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.SymbolsList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.SymbolsList",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.SymbolsTree.SymbolNodeTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.SymbolsTree.SymbolNodeTag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.SymbolsTree.SymbolNodeTag",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.SymbolsTree.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.SymbolsTree.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.SymbolsTree",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.TabControlHidden.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.TabControlHidden.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.TabControlHidden",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.TradeProgressForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.TradeProgressForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.TradeProgressForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.WaitingForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.WaitingForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.WaitingForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.WizardForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.WizardForm.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.WizardForm",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.WizardMTConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.WizardMTConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.WizardMTConfig",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.WizardMTConfigSingle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.WizardMTConfigSingle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI.WizardMTConfigSingle",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.MeXcelTrader.Workbook.GUI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.MeXcelTrader.Workbook.GUI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Endpoint.ConnectionClosed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Endpoint.ConnectionClosed.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Endpoint.ConnectionClosed",
+      "Summary": "<p sourcefile=\"api/FxDialogue.Services.Endpoint.ConnectionClosed.yml\" sourcestartlinenumber=\"1\">Thrown by sender endpoint methods if connection became closed.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Endpoint.IClientBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Endpoint.IClientBinding.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Endpoint.IClientBinding",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Endpoint.IConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Endpoint.IConnection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Endpoint.IConnection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Endpoint.IConnectionEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Endpoint.IConnectionEvents.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Endpoint.IConnectionEvents",
+      "Summary": "<p sourcefile=\"api/FxDialogue.Services.Endpoint.IConnectionEvents.yml\" sourcestartlinenumber=\"1\">Connection events interface.\nMethods are called in context of connection handler thread, so should return\nimmediately and processing of events must be asyncronous.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Endpoint.IReceieverEndpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Endpoint.IReceieverEndpoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Endpoint.IReceieverEndpoint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Endpoint.ISenderEndpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Endpoint.ISenderEndpoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Endpoint.ISenderEndpoint",
+      "Summary": "<p sourcefile=\"api/FxDialogue.Services.Endpoint.ISenderEndpoint.yml\" sourcestartlinenumber=\"1\">Message sending interface, implemented by Services.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Endpoint.IServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Endpoint.IServer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Endpoint.IServer",
+      "Summary": "<p sourcefile=\"api/FxDialogue.Services.Endpoint.IServer.yml\" sourcestartlinenumber=\"1\">Server interface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Endpoint.IServerBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Endpoint.IServerBinding.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Endpoint.IServerBinding",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Endpoint.NewConnectionResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Endpoint.NewConnectionResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Endpoint.NewConnectionResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Endpoint.Request.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Endpoint.Request.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Endpoint.Request",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Endpoint.Response.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Endpoint.Response.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Endpoint.Response",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Endpoint.ServerNotAvailable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Endpoint.ServerNotAvailable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Endpoint.ServerNotAvailable",
+      "Summary": "<p sourcefile=\"api/FxDialogue.Services.Endpoint.ServerNotAvailable.yml\" sourcestartlinenumber=\"1\">Thrown by IClientBinding.CreateConnection if server is not available.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Endpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Endpoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Endpoint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.IPCBinding.IPCClientBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.IPCBinding.IPCClientBinding.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.IPCBinding.IPCClientBinding",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.IPCBinding.IPCServerBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.IPCBinding.IPCServerBinding.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.IPCBinding.IPCServerBinding",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.IPCBinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.IPCBinding.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.IPCBinding",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Service.ClientConnector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Service.ClientConnector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Service.ClientConnector",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Service.ClientSessionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Service.ClientSessionBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Service.ClientSessionBase",
+      "Summary": "<p sourcefile=\"api/FxDialogue.Services.Service.ClientSessionBase.yml\" sourcestartlinenumber=\"1\">Base for client session, i.e. object that could send 'invoke' events.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Service.IService-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Service.IService-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Service.IService<TServiceSession>",
+      "Summary": "<p sourcefile=\"api/FxDialogue.Services.Service.IService-1.yml\" sourcestartlinenumber=\"1\">Simplex service interface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Service.IService-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Service.IService-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Service.IService<TServiceSession, TClientSession>",
+      "Summary": "<p sourcefile=\"api/FxDialogue.Services.Service.IService-2.yml\" sourcestartlinenumber=\"1\">Duplex service interface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Service.ReceiverEndpointBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Service.ReceiverEndpointBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Service.ReceiverEndpointBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Service.SenderEndpointProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Service.SenderEndpointProxy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Service.SenderEndpointProxy",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Service.ServiceSessionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Service.ServiceSessionBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Service.ServiceSessionBase",
+      "Summary": "<p sourcefile=\"api/FxDialogue.Services.Service.ServiceSessionBase.yml\" sourcestartlinenumber=\"1\">Base for service session, i.e. object that could receive 'invoke' events.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Service.ServicesServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Service.ServicesServer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Service.ServicesServer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Service.UnknownMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Service.UnknownMethod.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Service.UnknownMethod",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Service.UnknownService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Service.UnknownService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Service.UnknownService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Services.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Services.Service.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Services.Service",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.SetupUtils.IDirectoryTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.SetupUtils.IDirectoryTransaction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.SetupUtils.IDirectoryTransaction",
+      "Summary": "<p sourcefile=\"api/FxDialogue.SetupUtils.IDirectoryTransaction.yml\" sourcestartlinenumber=\"1\">Provides files operation inside particular directory covered by transaction.\nSo all operations performed could be committed or rolled back.\nThe transaction is not safe at process failure.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.SetupUtils.IStaticUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.SetupUtils.IStaticUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.SetupUtils.IStaticUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.SetupUtils.NeedElevateException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.SetupUtils.NeedElevateException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.SetupUtils.NeedElevateException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.SetupUtils.SetupUtilsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.SetupUtils.SetupUtilsClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.SetupUtils.SetupUtilsClient",
+      "Summary": "<p sourcefile=\"api/FxDialogue.SetupUtils.SetupUtilsClient.yml\" sourcestartlinenumber=\"1\">Setup utils factory (client for server app).\nMethods are not thread-safe.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.SetupUtils.SetupUtilsServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.SetupUtils.SetupUtilsServer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.SetupUtils.SetupUtilsServer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.SetupUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.SetupUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.SetupUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.AsyncResultBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.AsyncResultBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.AsyncResultBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.AsyncResultHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.AsyncResultHandler-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.AsyncResultHandler<TResult>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Data.Changes-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Data.Changes-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Data.Changes<TKey, TValue>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Data.ChangesTracker-2.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Data.ChangesTracker-2.Data.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Data.ChangesTracker<TKey, TValue>.Data",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Data.ChangesTracker-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Data.ChangesTracker-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Data.ChangesTracker<TKey, TValue>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Data.Updates-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Data.Updates-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Data.Updates<TKey, TValue>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Data.UpdatesTracker-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Data.UpdatesTracker-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Data.UpdatesTracker<TKey, TValue>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Data.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Data",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.DirectoryTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.DirectoryTransaction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.DirectoryTransaction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Dispatcher.InvokeGuard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Dispatcher.InvokeGuard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Dispatcher.InvokeGuard",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Dispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Dispatcher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Dispatcher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.DispatcherClosed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.DispatcherClosed.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.DispatcherClosed",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.DynamicMatrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.DynamicMatrix.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.DynamicMatrix",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.ErrorMessageBuilder.DescribeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.ErrorMessageBuilder.DescribeContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.ErrorMessageBuilder.DescribeContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.ErrorMessageBuilder.Describer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.ErrorMessageBuilder.Describer-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.ErrorMessageBuilder.Describer<TException>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.ErrorMessageBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.ErrorMessageBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.ErrorMessageBuilder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.HashHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.HashHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.HashHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Logging.FileLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Logging.FileLog.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Logging.FileLog",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Logging.LogBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Logging.LogBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Logging.LogBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Logging.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Logging",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.MessageLoopDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.MessageLoopDispatcher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.MessageLoopDispatcher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.MonitorGuard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.MonitorGuard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.MonitorGuard",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.NonSingleProcessException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.NonSingleProcessException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.NonSingleProcessException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Pair-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Pair-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Pair<T1, T2>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.ProcessUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.ProcessUtils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.ProcessUtils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Serialization.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Serialization.Data.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Serialization.Data",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Serialization.DataInArchive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Serialization.DataInArchive.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Serialization.DataInArchive",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Serialization.DataOutArchive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Serialization.DataOutArchive.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Serialization.DataOutArchive",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Serialization.DoubleValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Serialization.DoubleValue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Serialization.DoubleValue",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Serialization.IArchive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Serialization.IArchive.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Serialization.IArchive",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Serialization.ISerializable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Serialization.ISerializable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Serialization.ISerializable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Serialization.InArchive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Serialization.InArchive.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Serialization.InArchive",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Serialization.OutArchive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Serialization.OutArchive.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Serialization.OutArchive",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.Serialization.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.Serialization",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.State.ISaveable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.State.ISaveable-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.State.ISaveable<TStateItem>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.State.Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.State.Item.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.State.Item",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.State.ItemRef.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.State.ItemRef.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.State.ItemRef",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.State.Root.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.State.Root.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.State.Root",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.State.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.State",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.StreamHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.StreamHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.StreamHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.TempFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.TempFile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.TempFile",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.ThreadDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.ThreadDispatcher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.ThreadDispatcher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.ThreadDispatcherBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.ThreadDispatcherBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.ThreadDispatcherBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.ThreadedDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.ThreadedDispatcher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils.ThreadedDispatcher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Utils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Utils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Version.VersionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Version.VersionInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Version.VersionInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/FxDialogue.Version.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FxDialogue.Version.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "FxDialogue.Version",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.DdeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.DdeContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.DdeContext",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.DdeContext.yml\" sourcestartlinenumber=\"1\">This provides an execution context for <code>DdeClient</code> and <code>DdeServer</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.DdeMessageLoop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.DdeMessageLoop.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.DdeMessageLoop",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.DdeMessageLoop.yml\" sourcestartlinenumber=\"1\">This is a synchronizing object that can run a message loop on any thread.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.DdeRegistrationEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.DdeRegistrationEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.DdeRegistrationEventArgs",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.DdeRegistrationEventArgs.yml\" sourcestartlinenumber=\"1\">This contains information about the <code>Register</code> and <code>Unregister</code> events.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.DdeTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.DdeTransaction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.DdeTransaction",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.DdeTransaction.yml\" sourcestartlinenumber=\"1\">This contains the parameters of the DDEML callback function.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.IDdeTransactionFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.IDdeTransactionFilter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.IDdeTransactionFilter",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.IDdeTransactionFilter.yml\" sourcestartlinenumber=\"1\">This defines a transaction filter.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.Monitor.DdeActivityEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.Monitor.DdeActivityEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.Monitor.DdeActivityEventArgs",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.Monitor.DdeActivityEventArgs.yml\" sourcestartlinenumber=\"1\">This contains information about events on <code>DdeMonitor</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.Monitor.DdeCallbackActivityEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.Monitor.DdeCallbackActivityEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.Monitor.DdeCallbackActivityEventArgs",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.Monitor.DdeCallbackActivityEventArgs.yml\" sourcestartlinenumber=\"1\">This contains information about the <code>CallbackActivity</code> event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.Monitor.DdeConversationActivityEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.Monitor.DdeConversationActivityEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.Monitor.DdeConversationActivityEventArgs",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.Monitor.DdeConversationActivityEventArgs.yml\" sourcestartlinenumber=\"1\">This contains information about the <code>ConversationActivity</code> event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.Monitor.DdeErrorActivityEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.Monitor.DdeErrorActivityEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.Monitor.DdeErrorActivityEventArgs",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.Monitor.DdeErrorActivityEventArgs.yml\" sourcestartlinenumber=\"1\">This contains information about the <code>ErrorActivity</code> event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.Monitor.DdeLinkActivityEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.Monitor.DdeLinkActivityEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.Monitor.DdeLinkActivityEventArgs",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.Monitor.DdeLinkActivityEventArgs.yml\" sourcestartlinenumber=\"1\">This contains information about the <code>LinkActivity</code> event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.Monitor.DdeMessageActivityEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.Monitor.DdeMessageActivityEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.Monitor.DdeMessageActivityEventArgs",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.Monitor.DdeMessageActivityEventArgs.yml\" sourcestartlinenumber=\"1\">This contains information about the <code>MessageActivity</code> event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.Monitor.DdeMessageActivityKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.Monitor.DdeMessageActivityKind.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.Monitor.DdeMessageActivityKind",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.Monitor.DdeMessageActivityKind.yml\" sourcestartlinenumber=\"1\">This represents the kind of message contained in <code>DdeMessageActivityEventArgs</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.Monitor.DdeMonitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.Monitor.DdeMonitor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.Monitor.DdeMonitor",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.Monitor.DdeMonitor.yml\" sourcestartlinenumber=\"1\">This is used to monitor DDE activity.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.Monitor.DdeMonitorFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.Monitor.DdeMonitorFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.Monitor.DdeMonitorFlags",
+      "Summary": "<p sourcefile=\"api/NDde.Advanced.Monitor.DdeMonitorFlags.yml\" sourcestartlinenumber=\"1\">This specifies the different kinds of DDE activity that can be monitored.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.Monitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.Monitor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced.Monitor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Advanced.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Advanced.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Advanced",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Client.DdeAdviseEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Client.DdeAdviseEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Client.DdeAdviseEventArgs",
+      "Summary": "<p sourcefile=\"api/NDde.Client.DdeAdviseEventArgs.yml\" sourcestartlinenumber=\"1\">This contains information about the <code>Advise</code> event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Client.DdeClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Client.DdeClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Client.DdeClient",
+      "Summary": "<p sourcefile=\"api/NDde.Client.DdeClient.yml\" sourcestartlinenumber=\"1\">This represents the client side of a DDE conversation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Client.DdeClientsList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Client.DdeClientsList.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Client.DdeClientsList",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Client.DdeDisconnectedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Client.DdeDisconnectedEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Client.DdeDisconnectedEventArgs",
+      "Summary": "<p sourcefile=\"api/NDde.Client.DdeDisconnectedEventArgs.yml\" sourcestartlinenumber=\"1\">This contains information about the <code>Disconnected</code> event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Client.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Client",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.DdeEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.DdeEventArgs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.DdeEventArgs",
+      "Summary": "<p sourcefile=\"api/NDde.DdeEventArgs.yml\" sourcestartlinenumber=\"1\">This is the base class for all NDde event argument classes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.DdeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.DdeException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.DdeException",
+      "Summary": "<p sourcefile=\"api/NDde.DdeException.yml\" sourcestartlinenumber=\"1\">This is thrown when a DDE exception occurs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Server.DdeConversation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Server.DdeConversation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Server.DdeConversation",
+      "Summary": "<p sourcefile=\"api/NDde.Server.DdeConversation.yml\" sourcestartlinenumber=\"1\">This represents a DDE conversation established on a <code>DdeServer</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Server.DdeServer.ExecuteResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Server.DdeServer.ExecuteResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Server.DdeServer.ExecuteResult",
+      "Summary": "<p sourcefile=\"api/NDde.Server.DdeServer.ExecuteResult.yml\" sourcestartlinenumber=\"1\">This is the return value of the <code>OnExecute</code> method.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Server.DdeServer.PokeResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Server.DdeServer.PokeResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Server.DdeServer.PokeResult",
+      "Summary": "<p sourcefile=\"api/NDde.Server.DdeServer.PokeResult.yml\" sourcestartlinenumber=\"1\">This is the return value of the <code>OnPoke</code> method.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Server.DdeServer.RequestResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Server.DdeServer.RequestResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Server.DdeServer.RequestResult",
+      "Summary": "<p sourcefile=\"api/NDde.Server.DdeServer.RequestResult.yml\" sourcestartlinenumber=\"1\">This is the return value of the <code>OnRequest</code> method.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Server.DdeServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Server.DdeServer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Server.DdeServer",
+      "Summary": "<p sourcefile=\"api/NDde.Server.DdeServer.yml\" sourcestartlinenumber=\"1\">This represents the server side of DDE conversations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.Server.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde.Server",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NDde.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NDde.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NDde",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

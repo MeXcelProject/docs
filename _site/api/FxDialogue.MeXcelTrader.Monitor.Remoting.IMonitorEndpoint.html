@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IMonitorEndpoint | Mexcel Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IMonitorEndpoint | Mexcel Documentation ">
+      
+      <meta name="description" content="Generic interface of monitor endpoint of monitor-workbook connection (remoting independant).">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Mexcel Documentation">
+            Mexcel Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint">
+
+
+
+  <h1 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint" class="text-break">
+Interface IMonitorEndpoint  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="FxDialogue.html">FxDialogue</a>.<a class="xref" href="FxDialogue.MeXcelTrader.html">MeXcelTrader</a>.<a class="xref" href="FxDialogue.MeXcelTrader.Monitor.html">Monitor</a>.<a class="xref" href="FxDialogue.MeXcelTrader.Monitor.Remoting.html">Remoting</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>FxDialogue.MeXcelTrader.Monitor.Remoting.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Generic interface of monitor endpoint of monitor-workbook connection
+(remoting independant).</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IMonitorEndpoint</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_GetCustomIndicator_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.GetCustomIndicator*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_GetCustomIndicator_System_String_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.GetCustomIndicator(System.String)">
+  GetCustomIndicator(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">CustomIndicatorDescription GetCustomIndicator(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FxDialogue.MeXcelTrader.Monitor.Remoting.Data.CustomIndicatorDescription.html">CustomIndicatorDescription</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_GetCustomIndicators_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.GetCustomIndicators*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_GetCustomIndicators" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.GetCustomIndicators">
+  GetCustomIndicators()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;CustomIndicatorDescription&gt; GetCustomIndicators()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="FxDialogue.MeXcelTrader.Monitor.Remoting.Data.CustomIndicatorDescription.html">CustomIndicatorDescription</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_GetCustomIndicatorsNames_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.GetCustomIndicatorsNames*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_GetCustomIndicatorsNames" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.GetCustomIndicatorsNames">
+  GetCustomIndicatorsNames()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;string&gt; GetCustomIndicatorsNames()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_GetSelectedSymbols_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.GetSelectedSymbols*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_GetSelectedSymbols" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.GetSelectedSymbols">
+  GetSelectedSymbols()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;string&gt; GetSelectedSymbols()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_OrderModify_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.OrderModify*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_OrderModify_System_Int64_System_Double_System_Double_System_Double_System_DateTime_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.OrderModify(System.Int64,System.Double,System.Double,System.Double,System.DateTime)">
+  OrderModify(long, double, double, double, DateTime)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool OrderModify(long ticket, double price, double stoploss, double takeprofit, DateTime expiration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ticket</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>stoploss</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>takeprofit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>expiration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_OrderRemove_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.OrderRemove*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_OrderRemove_System_Int64_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.OrderRemove(System.Int64)">
+  OrderRemove(long)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OrderRemove(long ticket)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ticket</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_OrderSend_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.OrderSend*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_OrderSend_System_String_FxDialogue_MeXcelTrader_MQL4Wrapper_API_OrderType_System_Double_System_Double_System_Int64_System_Double_System_Double_System_String_System_Int64_System_DateTime_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.OrderSend(System.String,FxDialogue.MeXcelTrader.MQL4Wrapper.API.OrderType,System.Double,System.Double,System.Int64,System.Double,System.Double,System.String,System.Int64,System.DateTime)">
+  OrderSend(string, OrderType, double, double, long, double, double, string, long, DateTime)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long OrderSend(string symbol, OrderType cmd, double volume, double price, long slippage, double stoploss, double takeprofit, string comment, long magic, DateTime expiration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>cmd</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.OrderType.html">OrderType</a></dt>
+    <dd></dd>
+    <dt><code>volume</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>price</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>slippage</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>stoploss</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>takeprofit</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>comment</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>magic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+    <dt><code>expiration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_RemoveHistoryCurrency_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.RemoveHistoryCurrency*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_RemoveHistoryCurrency_System_Int32_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.RemoveHistoryCurrency(System.Int32)">
+  RemoveHistoryCurrency(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveHistoryCurrency(int id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_RemoveHistoryIndicator_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.RemoveHistoryIndicator*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_RemoveHistoryIndicator_System_Int32_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.RemoveHistoryIndicator(System.Int32)">
+  RemoveHistoryIndicator(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveHistoryIndicator(int id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_RemoveRealtimeCurrency_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.RemoveRealtimeCurrency*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_RemoveRealtimeCurrency_System_Int32_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.RemoveRealtimeCurrency(System.Int32)">
+  RemoveRealtimeCurrency(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveRealtimeCurrency(int id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_RemoveRealtimeIndicator_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.RemoveRealtimeIndicator*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_RemoveRealtimeIndicator_System_Int32_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.RemoveRealtimeIndicator(System.Int32)">
+  RemoveRealtimeIndicator(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveRealtimeIndicator(int id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_RemoveRealtimeQuote_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.RemoveRealtimeQuote*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_RemoveRealtimeQuote_System_Int32_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.RemoveRealtimeQuote(System.Int32)">
+  RemoveRealtimeQuote(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveRealtimeQuote(int id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_Restart_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.Restart*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_Restart" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.Restart">
+  Restart()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Restart()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetCustomIndicator_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetCustomIndicator*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetCustomIndicator_FxDialogue_MeXcelTrader_Monitor_Remoting_Data_CustomIndicatorDescription_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetCustomIndicator(FxDialogue.MeXcelTrader.Monitor.Remoting.Data.CustomIndicatorDescription)">
+  SetCustomIndicator(CustomIndicatorDescription)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetCustomIndicator(CustomIndicatorDescription customIndicatorDescription)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>customIndicatorDescription</code> <a class="xref" href="FxDialogue.MeXcelTrader.Monitor.Remoting.Data.CustomIndicatorDescription.html">CustomIndicatorDescription</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetDynamicHistoryCurrency_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetDynamicHistoryCurrency*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetDynamicHistoryCurrency_System_Int32_System_String_FxDialogue_MeXcelTrader_MQL4Wrapper_API_TimeFrame_System_Int32_System_Int32_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetDynamicHistoryCurrency(System.Int32,System.String,FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame,System.Int32,System.Int32)">
+  SetDynamicHistoryCurrency(int, string, TimeFrame, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetDynamicHistoryCurrency(int id, string symbol, TimeFrame timeFrame, int shiftFirst, int shiftLast)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>timeFrame</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame.html">TimeFrame</a></dt>
+    <dd></dd>
+    <dt><code>shiftFirst</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>shiftLast</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetDynamicHistoryIndicator_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetDynamicHistoryIndicator*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetDynamicHistoryIndicator_System_Int32_System_String_FxDialogue_MeXcelTrader_MQL4Wrapper_API_TimeFrame_System_Int32_System_Int32_FxDialogue_MeXcelTrader_MQL4Wrapper_API_Indicator_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetDynamicHistoryIndicator(System.Int32,System.String,FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame,System.Int32,System.Int32,FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicator)">
+  SetDynamicHistoryIndicator(int, string, TimeFrame, int, int, Indicator)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetDynamicHistoryIndicator(int id, string symbol, TimeFrame timeFrame, int shiftFirst, int shiftLast, Indicator indicator)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>timeFrame</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame.html">TimeFrame</a></dt>
+    <dd></dd>
+    <dt><code>shiftFirst</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>shiftLast</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>indicator</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicator.html">Indicator</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetRealtimeCurrencies_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetRealtimeCurrencies*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetRealtimeCurrencies_System_Collections_Generic_List_System_Collections_Generic_KeyValuePair_System_Int32_FxDialogue_MeXcelTrader_Monitor_Remoting_Data_RealtimeCurrencyProperties___" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetRealtimeCurrencies(System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.Int32,FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeCurrencyProperties}})">
+  SetRealtimeCurrencies(List&lt;KeyValuePair&lt;int, RealtimeCurrencyProperties&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetRealtimeCurrencies(List&lt;KeyValuePair&lt;int, RealtimeCurrencyProperties&gt;&gt; realtimeCurrencies)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>realtimeCurrencies</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeCurrencyProperties.html">RealtimeCurrencyProperties</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetRealtimeCurrency_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetRealtimeCurrency*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetRealtimeCurrency_System_Int32_FxDialogue_MeXcelTrader_Monitor_Remoting_Data_RealtimeCurrencyProperties_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetRealtimeCurrency(System.Int32,FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeCurrencyProperties)">
+  SetRealtimeCurrency(int, RealtimeCurrencyProperties)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetRealtimeCurrency(int id, RealtimeCurrencyProperties props)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>props</code> <a class="xref" href="FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeCurrencyProperties.html">RealtimeCurrencyProperties</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetRealtimeIndicator_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetRealtimeIndicator*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetRealtimeIndicator_System_Int32_FxDialogue_MeXcelTrader_Monitor_Remoting_Data_RealtimeIndicatorProperties_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetRealtimeIndicator(System.Int32,FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeIndicatorProperties)">
+  SetRealtimeIndicator(int, RealtimeIndicatorProperties)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetRealtimeIndicator(int id, RealtimeIndicatorProperties props)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>props</code> <a class="xref" href="FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeIndicatorProperties.html">RealtimeIndicatorProperties</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetRealtimeIndicators_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetRealtimeIndicators*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetRealtimeIndicators_System_Collections_Generic_List_System_Collections_Generic_KeyValuePair_System_Int32_FxDialogue_MeXcelTrader_Monitor_Remoting_Data_RealtimeIndicatorProperties___" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetRealtimeIndicators(System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.Int32,FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeIndicatorProperties}})">
+  SetRealtimeIndicators(List&lt;KeyValuePair&lt;int, RealtimeIndicatorProperties&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetRealtimeIndicators(List&lt;KeyValuePair&lt;int, RealtimeIndicatorProperties&gt;&gt; realtimeIndicators)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>realtimeIndicators</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeIndicatorProperties.html">RealtimeIndicatorProperties</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetRealtimeQuote_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetRealtimeQuote*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetRealtimeQuote_System_Int32_FxDialogue_MeXcelTrader_Monitor_Remoting_Data_RealtimeQuoteProperties_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetRealtimeQuote(System.Int32,FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeQuoteProperties)">
+  SetRealtimeQuote(int, RealtimeQuoteProperties)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetRealtimeQuote(int id, RealtimeQuoteProperties props)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>props</code> <a class="xref" href="FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeQuoteProperties.html">RealtimeQuoteProperties</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetRealtimeQuotes_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetRealtimeQuotes*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetRealtimeQuotes_System_Collections_Generic_List_System_Collections_Generic_KeyValuePair_System_Int32_FxDialogue_MeXcelTrader_Monitor_Remoting_Data_RealtimeQuoteProperties___" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetRealtimeQuotes(System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.Int32,FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeQuoteProperties}})">
+  SetRealtimeQuotes(List&lt;KeyValuePair&lt;int, RealtimeQuoteProperties&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetRealtimeQuotes(List&lt;KeyValuePair&lt;int, RealtimeQuoteProperties&gt;&gt; realtimeQuotes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>realtimeQuotes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>, <a class="xref" href="FxDialogue.MeXcelTrader.Monitor.Remoting.Data.RealtimeQuoteProperties.html">RealtimeQuoteProperties</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetStaticHistoryCurrency_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetStaticHistoryCurrency*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetStaticHistoryCurrency_System_Int32_System_String_FxDialogue_MeXcelTrader_MQL4Wrapper_API_TimeFrame_System_DateTime_System_DateTime_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetStaticHistoryCurrency(System.Int32,System.String,FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame,System.DateTime,System.DateTime)">
+  SetStaticHistoryCurrency(int, string, TimeFrame, DateTime, DateTime)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetStaticHistoryCurrency(int id, string symbol, TimeFrame timeFrame, DateTime begin, DateTime end)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>timeFrame</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame.html">TimeFrame</a></dt>
+    <dd></dd>
+    <dt><code>begin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+    <dt><code>end</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetStaticHistoryIndicator_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetStaticHistoryIndicator*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_SetStaticHistoryIndicator_System_Int32_System_String_FxDialogue_MeXcelTrader_MQL4Wrapper_API_TimeFrame_System_DateTime_System_DateTime_FxDialogue_MeXcelTrader_MQL4Wrapper_API_Indicator_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.SetStaticHistoryIndicator(System.Int32,System.String,FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame,System.DateTime,System.DateTime,FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicator)">
+  SetStaticHistoryIndicator(int, string, TimeFrame, DateTime, DateTime, Indicator)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetStaticHistoryIndicator(int id, string symbol, TimeFrame timeFrame, DateTime begin, DateTime end, Indicator indicator)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>symbol</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>timeFrame</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.TimeFrame.html">TimeFrame</a></dt>
+    <dd></dd>
+    <dt><code>begin</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+    <dt><code>end</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+    <dt><code>indicator</code> <a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.API.Indicator.html">Indicator</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_Stop_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.Stop*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_Stop" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.Stop">
+  Stop()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Stop()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_TestMonitor_" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.TestMonitor*"></a>
+
+  <h3 id="FxDialogue_MeXcelTrader_Monitor_Remoting_IMonitorEndpoint_TestMonitor" data-uid="FxDialogue.MeXcelTrader.Monitor.Remoting.IMonitorEndpoint.TestMonitor">
+  TestMonitor()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void TestMonitor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

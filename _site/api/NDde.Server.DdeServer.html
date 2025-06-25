@@ -1,0 +1,1571 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class DdeServer | Mexcel Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class DdeServer | Mexcel Documentation ">
+      
+      <meta name="description" content="This represents the server side of DDE conversations.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Mexcel Documentation">
+            Mexcel Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="NDde.Server.DdeServer">
+
+
+
+  <h1 id="NDde_Server_DdeServer" data-uid="NDde.Server.DdeServer" class="text-break">
+Class DdeServer  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="NDde.html">NDde</a>.<a class="xref" href="NDde.Server.html">Server</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>NDde.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>This represents the server side of DDE conversations.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class DdeServer : IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">DdeServer</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="FxDialogue.MeXcelTrader.MQL4Wrapper.Base.MyDdeServer.html">MyDdeServer</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+  <h2 id="NDde_Server_DdeServer_examples">Examples</h2>
+  <p>The following example demostrates how to use a DdeServer.
+<pre><code class="lang-csharp">using System;
+using System.Collections;
+using System.Timers;
+using NDde.Server;
+<pre><code>public class Server
+{
+    public static void Main()
+    {
+        try
+        {
+            // Create a server that will register the service name 'myapp'.
+            using (DdeServer server = new MyServer(&quot;myapp&quot;))
+            {
+                // Register the service name.
+                server.Register();
+
+                // Wait for the user to press ENTER before proceding.
+                Console.WriteLine(&quot;Press ENTER to quit...&quot;);
+                Console.ReadLine();
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            Console.WriteLine(&quot;Press ENTER to quit...&quot;);
+            Console.ReadLine();
+        }
+    }
+
+    private sealed class MyServer : DdeServer
+    {
+        private System.Timers.Timer _Timer = new System.Timers.Timer();
+
+        public MyServer(string service) : base(service)
+        {
+            // Create a timer that will be used to advise clients of new data.
+            _Timer.Elapsed += this.OnTimerElapsed;
+            _Timer.Interval = 1000;
+            _Timer.SynchronizingObject = this.Context;
+            _Timer.Start();
+        }
+
+        private void OnTimerElapsed(object sender, ElapsedEventArgs args)
+        {
+            // Advise all topic name and item name pairs.
+            Advise(&quot;*&quot;, &quot;*&quot;);
+        }
+
+        protected override bool OnBeforeConnect(string topic)
+        {
+            Console.WriteLine(&quot;OnBeforeConnect:&quot;.PadRight(16)
+                + &quot; Service='&quot; + base.Service + &quot;'&quot;
+                + &quot; Topic='&quot; + topic + &quot;'&quot;);
+
+            return true;
+        }
+
+        protected override void OnAfterConnect(DdeConversation conversation)
+        {
+            Console.WriteLine(&quot;OnAfterConnect:&quot;.PadRight(16)
+                + &quot; Service='&quot; + conversation.Service + &quot;'&quot;
+                + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot;
+                + &quot; Handle=&quot; + conversation.Handle.ToString());
+        }
+
+        protected override void OnDisconnect(DdeConversation conversation)
+        {
+            Console.WriteLine(&quot;OnDisconnect:&quot;.PadRight(16)
+                + &quot; Service='&quot; + conversation.Service + &quot;'&quot;
+                + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot;
+                + &quot; Handle=&quot; + conversation.Handle.ToString());
+        }
+
+        protected override bool OnStartAdvise(DdeConversation conversation, string item, int format)
+        {
+            Console.WriteLine(&quot;OnStartAdvise:&quot;.PadRight(16)
+                + &quot; Service='&quot; + conversation.Service + &quot;'&quot;
+                + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot;
+                + &quot; Handle=&quot; + conversation.Handle.ToString()
+                + &quot; Item='&quot; + item + &quot;'&quot;
+                + &quot; Format=&quot; + format.ToString());
+
+            // Initiate the advisory loop only if the format is CF_TEXT.
+            return format == 1;
+        }
+
+        protected override void OnStopAdvise(DdeConversation conversation, string item)
+        {
+            Console.WriteLine(&quot;OnStopAdvise:&quot;.PadRight(16)
+                + &quot; Service='&quot; + conversation.Service + &quot;'&quot;
+                + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot;
+                + &quot; Handle=&quot; + conversation.Handle.ToString()
+                + &quot; Item='&quot; + item + &quot;'&quot;);
+        }
+
+        protected override ExecuteResult OnExecute(DdeConversation conversation, string command)
+        {
+            Console.WriteLine(&quot;OnExecute:&quot;.PadRight(16)
+                + &quot; Service='&quot; + conversation.Service + &quot;'&quot;
+                + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot;
+                + &quot; Handle=&quot; + conversation.Handle.ToString()
+                + &quot; Command='&quot; + command + &quot;'&quot;);
+
+            // Tell the client that the command was processed.
+            return ExecuteResult.Processed;
+        }
+
+        protected override PokeResult OnPoke(DdeConversation conversation, string item, byte[] data, int format)
+        {
+            Console.WriteLine(&quot;OnPoke:&quot;.PadRight(16)
+                + &quot; Service='&quot; + conversation.Service + &quot;'&quot;
+                + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot;
+                + &quot; Handle=&quot; + conversation.Handle.ToString()
+                + &quot; Item='&quot; + item + &quot;'&quot;
+                + &quot; Data=&quot; + data.Length.ToString()
+                + &quot; Format=&quot; + format.ToString());
+
+            // Tell the client that the data was processed.
+            return PokeResult.Processed;
+        }
+
+        protected override RequestResult OnRequest(DdeConversation conversation, string item, int format)
+        {
+            Console.WriteLine(&quot;OnRequest:&quot;.PadRight(16)
+                + &quot; Service='&quot; + conversation.Service + &quot;'&quot;
+                + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot;
+                + &quot; Handle=&quot; + conversation.Handle.ToString()
+                + &quot; Item='&quot; + item + &quot;'&quot;
+                + &quot; Format=&quot; + format.ToString());
+
+            // Return data to the client only if the format is CF_TEXT.
+            if (format == 1)
+            {
+                return new RequestResult(System.Text.Encoding.ASCII.GetBytes(&quot;Time=&quot; + DateTime.Now.ToString() + &quot;\0&quot;));
+            }
+            return RequestResult.NotProcessed;
+        }
+
+        protected override byte[] OnAdvise(string topic, string item, int format)
+        {
+            Console.WriteLine(&quot;OnAdvise:&quot;.PadRight(16)
+                + &quot; Service='&quot; + this.Service + &quot;'&quot;
+                + &quot; Topic='&quot; + topic + &quot;'&quot;
+                + &quot; Item='&quot; + item + &quot;'&quot;
+                + &quot; Format=&quot; + format.ToString());
+
+            // Send data to the client only if the format is CF_TEXT.
+            if (format == 1)
+            {
+                return System.Text.Encoding.ASCII.GetBytes(&quot;Time=&quot; + DateTime.Now.ToString() + &quot;\0&quot;);
+            }
+            return null;
+        }
+
+    } // class
+
+} // class&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&quot;lang-csharp&quot;&gt;Imports NDde.Server
+
+Module Program
+
+    Sub Main()
+
+        Try
+
+            ' Create a server that will register the service name 'myapp'.
+            Using server As DdeServer = New MyServer(&quot;myapp&quot;)
+
+                ' Register the service name.
+                server.Register()
+
+                ' Wait for the user to press ENTER before proceding.
+                Console.WriteLine(&quot;Press ENTER to quit...&quot;)
+                Console.ReadLine()
+
+            End Using
+
+        Catch e As Exception
+
+            Console.WriteLine(e)
+            Console.WriteLine(&quot;Press ENTER to quit...&quot;)
+            Console.ReadLine()
+
+        End Try
+
+    End Sub
+
+    Private Class MyServer
+        Inherits DdeServer
+
+        Private WithEvents theTimer As System.Timers.Timer = New System.Timers.Timer()
+
+        Public Sub New(ByVal service As String)
+            MyBase.New(service)
+            ' Create a timer that will be used to advise clients of new data.
+            theTimer.Interval = 1000
+            theTimer.SynchronizingObject = Me.Context
+            theTimer.Start()
+        End Sub
+
+        Private Sub theTimer_Elapsed(ByVal sender As Object, ByVal e As System.Timers.ElapsedEventArgs) Handles theTimer.Elapsed
+            Me.Advise(&quot;*&quot;, &quot;*&quot;)
+        End Sub
+
+        Protected Overrides Function OnBeforeConnect(ByVal topic As String) As Boolean
+            Console.WriteLine(&quot;OnBeforeConnect:&quot;.PadRight(16) _
+             + &quot; Service='&quot; + MyBase.Service + &quot;'&quot; _
+             + &quot; Topic='&quot; + topic + &quot;'&quot;)
+
+            Return True
+        End Function
+
+        Protected Overrides Sub OnAfterConnect(ByVal conversation As DdeConversation)
+            Console.WriteLine(&quot;OnAfterConnect:&quot;.PadRight(16) _
+             + &quot; Service='&quot; + conversation.Service + &quot;'&quot; _
+             + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot; _
+             + &quot; Handle=&quot; + conversation.Handle.ToString())
+        End Sub
+
+        Protected Overrides Sub OnDisconnect(ByVal conversation As DdeConversation)
+            Console.WriteLine(&quot;OnDisconnect:&quot;.PadRight(16) _
+             + &quot; Service='&quot; + conversation.Service + &quot;'&quot; _
+             + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot; _
+             + &quot; Handle=&quot; + conversation.Handle.ToString())
+        End Sub
+
+        Protected Overrides Function OnStartAdvise(ByVal conversation As DdeConversation, ByVal item As String, ByVal format As Integer) As Boolean
+            Console.WriteLine(&quot;OnStartAdvise:&quot;.PadRight(16) _
+             + &quot; Service='&quot; + conversation.Service + &quot;'&quot; _
+             + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot; _
+             + &quot; Handle=&quot; + conversation.Handle.ToString() _
+             + &quot; Item='&quot; + item + &quot;'&quot; _
+             + &quot; Format=&quot; + format.ToString())
+
+            ' Initiate the advisory loop only if the format is CF_TEXT.
+            Return format = 1
+        End Function
+
+        Protected Overrides Sub OnStopAdvise(ByVal conversation As DdeConversation, ByVal item As String)
+            Console.WriteLine(&quot;OnStopAdvise:&quot;.PadRight(16) _
+              + &quot; Service='&quot; + conversation.Service + &quot;'&quot; _
+              + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot; _
+              + &quot; Handle=&quot; + conversation.Handle.ToString() _
+              + &quot; Item='&quot; + item + &quot;'&quot;)
+        End Sub
+
+        Protected Overrides Function OnExecute(ByVal conversation As DdeConversation, ByVal command As String) As ExecuteResult
+            Console.WriteLine(&quot;OnExecute:&quot;.PadRight(16) _
+             + &quot; Service='&quot; + conversation.Service + &quot;'&quot; _
+             + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot; _
+             + &quot; Handle=&quot; + conversation.Handle.ToString() _
+             + &quot; Command='&quot; + command + &quot;'&quot;)
+
+            ' Tell the client that the command was processed.
+            Return ExecuteResult.Processed
+        End Function
+
+        Protected Overrides Function OnPoke(ByVal conversation As DdeConversation, ByVal item As String, ByVal data As Byte(), ByVal format As Integer) As PokeResult
+            Console.WriteLine(&quot;OnPoke:&quot;.PadRight(16) _
+             + &quot; Service='&quot; + conversation.Service + &quot;'&quot; _
+             + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot; _
+             + &quot; Handle=&quot; + conversation.Handle.ToString() _
+             + &quot; Item='&quot; + item + &quot;'&quot; _
+             + &quot; Data=&quot; + data.Length.ToString() _
+             + &quot; Format=&quot; + format.ToString())
+
+            ' Tell the client that the data was processed.
+            Return PokeResult.Processed
+        End Function
+
+        Protected Overrides Function OnRequest(ByVal conversation As DdeConversation, ByVal item As String, ByVal format As Integer) As RequestResult
+            Console.WriteLine(&quot;OnRequest:&quot;.PadRight(16) _
+             + &quot; Service='&quot; + conversation.Service + &quot;'&quot; _
+             + &quot; Topic='&quot; + conversation.Topic + &quot;'&quot; _
+             + &quot; Handle=&quot; + conversation.Handle.ToString() _
+             + &quot; Item='&quot; + item + &quot;'&quot; _
+             + &quot; Format=&quot; + format.ToString())
+
+            ' Return data to the client only if the format is CF_TEXT.
+            If format = 1 Then
+                Return New RequestResult(System.Text.Encoding.ASCII.GetBytes(&quot;Time=&quot; + DateTime.Now.ToString() + Convert.ToChar(0)))
+            End If
+            Return RequestResult.NotProcessed
+        End Function
+
+        Protected Overrides Function OnAdvise(ByVal topic As String, ByVal item As String, ByVal format As Integer) As Byte()
+            Console.WriteLine(&quot;OnAdvise:&quot;.PadRight(16) _
+             + &quot; Service='&quot; + Me.Service + &quot;'&quot; _
+             + &quot; Topic='&quot; + topic + &quot;'&quot; _
+             + &quot; Item='&quot; + item + &quot;'&quot; _
+             + &quot; Format=&quot; + format.ToString())
+
+            ' Send data to the client only if the format is CF_TEXT.
+            If format = 1 Then
+                Return System.Text.Encoding.ASCII.GetBytes(&quot;Time=&quot; + DateTime.Now.ToString() + Convert.ToChar(0))
+            End If
+            Return Nothing
+        End Function
+
+    End Class
+
+End Module&lt;/code&gt;&lt;/pre&gt;
+</code></pre>
+</code></pre>
+
+  <h2 id="NDde_Server_DdeServer_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>
+DDE conversations are established by specifying a service name and topic name pair.  The service name is usually the name of the application
+acting as a DDE server.  A DDE server can respond to multiple service names, but most servers usually only respond to one.  The topic name
+is a logical context for data and is defined by the server application.  A server can and usually does support many topic names.
+</p>
+<p>
+After this object has registered its service name by calling the <code>Register</code> method clients can connect to it by specifying the service
+name the server registered and a topic name that it supports.
+</p>
+<p>
+Event methods are invoked on the thread hosting the <code>DdeContext</code>.  All operations must be marshaled onto the thread hosting the 
+<code>DdeContext</code> associated with this object.  Method calls will block until that thread becomes available.  An exception will be generated
+if the thread does not become available in a timely manner.
+</p>
+<p>
+<div class="NOTE"><h5>inheritinfo</h5><p>
+The event methods must be overridden in a subclass as needed.
+</p></div>
+
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="NDde_Server_DdeServer__ctor_" data-uid="NDde.Server.DdeServer.#ctor*"></a>
+
+  <h3 id="NDde_Server_DdeServer__ctor_System_String_" data-uid="NDde.Server.DdeServer.#ctor(System.String)">
+  DdeServer(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This initializes a new instance of the <code>DdeServer</code> class that can register the specified service name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DdeServer(string service)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>service</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The service name that this instance can register.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>This is thown when service exceeds 255 characters..</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>This is thrown when service is a null reference.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDde_Server_DdeServer__ctor_" data-uid="NDde.Server.DdeServer.#ctor*"></a>
+
+  <h3 id="NDde_Server_DdeServer__ctor_System_String_NDde_Advanced_DdeContext_" data-uid="NDde.Server.DdeServer.#ctor(System.String,NDde.Advanced.DdeContext)">
+  DdeServer(string, DdeContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This initializes a new instance of the <code>DdeServer</code> class that can register the specified service name and uses the specified
+context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DdeServer(string service, DdeContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>service</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The service name that this instance can register.</p>
+</dd>
+    <dt><code>context</code> <a class="xref" href="NDde.Advanced.DdeContext.html">DdeContext</a></dt>
+    <dd><p>The context to use for execution.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>This is thown when service exceeds 255 characters..</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>This is thrown when service is a null reference.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDde_Server_DdeServer__ctor_" data-uid="NDde.Server.DdeServer.#ctor*"></a>
+
+  <h3 id="NDde_Server_DdeServer__ctor_System_String_System_ComponentModel_ISynchronizeInvoke_" data-uid="NDde.Server.DdeServer.#ctor(System.String,System.ComponentModel.ISynchronizeInvoke)">
+  DdeServer(string, ISynchronizeInvoke)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This initializes a new instance of the <code>DdeServer</code> class that can register the specified service name and using the specified
+synchronizing object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DdeServer(string service, ISynchronizeInvoke synchronizingObject)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>service</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The service name that this instance can register.</p>
+</dd>
+    <dt><code>synchronizingObject</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.isynchronizeinvoke">ISynchronizeInvoke</a></dt>
+    <dd><p>The synchronizing object to use for this instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>This is thown when service exceeds 255 characters..</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>This is thrown when service is a null reference.</p>
+</dd>
+  </dl>
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="NDde_Server_DdeServer_Context_" data-uid="NDde.Server.DdeServer.Context*"></a>
+
+  <h3 id="NDde_Server_DdeServer_Context" data-uid="NDde.Server.DdeServer.Context">
+  Context
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This gets the context associated with his instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DdeContext Context { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDde.Advanced.DdeContext.html">DdeContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDde_Server_DdeServer_IsRegistered_" data-uid="NDde.Server.DdeServer.IsRegistered*"></a>
+
+  <h3 id="NDde_Server_DdeServer_IsRegistered" data-uid="NDde.Server.DdeServer.IsRegistered">
+  IsRegistered
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This gets a bool indicating whether the service name is registered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual bool IsRegistered { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="NDde_Server_DdeServer_Service_" data-uid="NDde.Server.DdeServer.Service*"></a>
+
+  <h3 id="NDde_Server_DdeServer_Service" data-uid="NDde.Server.DdeServer.Service">
+  Service
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This gets the service name associated with this server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string Service { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="NDde_Server_DdeServer_Advise_" data-uid="NDde.Server.DdeServer.Advise*"></a>
+
+  <h3 id="NDde_Server_DdeServer_Advise_System_String_System_String_" data-uid="NDde.Server.DdeServer.Advise(System.String,System.String)">
+  Advise(string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This notifies all clients that data has changed for the specified topic name and item name pair.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Advise(string topic, string item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>topic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A topic name supported by this server.</p>
+</dd>
+    <dt><code>item</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>An item name supported by this server.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="NDde_Server_DdeServer_Advise_System_String_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Use an asterix to indicate that the topic name, item name, or both should be wild.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></dt>
+    <dd><p>This is thown when topic or item exceeds 255 characters..</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>This is thrown when topic or item is a null reference.</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>This is thrown when the server is not registered.</p>
+</dd>
+    <dt><a class="xref" href="NDde.DdeException.html">DdeException</a></dt>
+    <dd><p>This is thrown when the notification could not be posted.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDde_Server_DdeServer_Disconnect_" data-uid="NDde.Server.DdeServer.Disconnect*"></a>
+
+  <h3 id="NDde_Server_DdeServer_Disconnect" data-uid="NDde.Server.DdeServer.Disconnect">
+  Disconnect()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This terminates all conversations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Disconnect()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>This is thrown when the server is not registered.</p>
+</dd>
+    <dt><a class="xref" href="NDde.DdeException.html">DdeException</a></dt>
+    <dd><p>This is thrown when the conversations could not be terminated.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDde_Server_DdeServer_Disconnect_" data-uid="NDde.Server.DdeServer.Disconnect*"></a>
+
+  <h3 id="NDde_Server_DdeServer_Disconnect_NDde_Server_DdeConversation_" data-uid="NDde.Server.DdeServer.Disconnect(NDde.Server.DdeConversation)">
+  Disconnect(DdeConversation)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This terminates the specified conversation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Disconnect(DdeConversation conversation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>conversation</code> <a class="xref" href="NDde.Server.DdeConversation.html">DdeConversation</a></dt>
+    <dd><p>The conversation to terminate.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>This is thrown when conversation is a null reference.</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>This is thrown when the server is not registered.</p>
+</dd>
+    <dt><a class="xref" href="NDde.DdeException.html">DdeException</a></dt>
+    <dd><p>This is thrown when the conversation could not be terminated.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDde_Server_DdeServer_Dispose_" data-uid="NDde.Server.DdeServer.Dispose*"></a>
+
+  <h3 id="NDde_Server_DdeServer_Dispose" data-uid="NDde.Server.DdeServer.Dispose">
+  Dispose()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This unregisters service name and releases all resources held by this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDde_Server_DdeServer_Dispose_" data-uid="NDde.Server.DdeServer.Dispose*"></a>
+
+  <h3 id="NDde_Server_DdeServer_Dispose_System_Boolean_" data-uid="NDde.Server.DdeServer.Dispose(System.Boolean)">
+  Dispose(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This contains the implementation to release all resources held by this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>disposing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if called by Dispose, false otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDde_Server_DdeServer_OnAdvise_" data-uid="NDde.Server.DdeServer.OnAdvise*"></a>
+
+  <h3 id="NDde_Server_DdeServer_OnAdvise_System_String_System_String_System_Int32_" data-uid="NDde.Server.DdeServer.OnAdvise(System.String,System.String,System.Int32)">
+  OnAdvise(string, string, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This is invoked when the server is performing a hot advise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual byte[] OnAdvise(string topic, string item, int format)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>topic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The topic name associated with this event.</p>
+</dd>
+    <dt><code>item</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The item name associated with this event.</p>
+</dd>
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The format of the data.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p>The data that will be sent to the clients.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="NDde_Server_DdeServer_OnAdvise_System_String_System_String_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The default implementation sends nothing to the clients.</p>
+</div>
+
+
+
+
+  <a id="NDde_Server_DdeServer_OnAfterConnect_" data-uid="NDde.Server.DdeServer.OnAfterConnect*"></a>
+
+  <h3 id="NDde_Server_DdeServer_OnAfterConnect_NDde_Server_DdeConversation_" data-uid="NDde.Server.DdeServer.OnAfterConnect(NDde.Server.DdeConversation)">
+  OnAfterConnect(DdeConversation)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This is invoked when a client has successfully established a conversation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnAfterConnect(DdeConversation conversation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>conversation</code> <a class="xref" href="NDde.Server.DdeConversation.html">DdeConversation</a></dt>
+    <dd><p>The conversation associated with this event.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDde_Server_DdeServer_OnBeforeConnect_" data-uid="NDde.Server.DdeServer.OnBeforeConnect*"></a>
+
+  <h3 id="NDde_Server_DdeServer_OnBeforeConnect_System_String_" data-uid="NDde.Server.DdeServer.OnBeforeConnect(System.String)">
+  OnBeforeConnect(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This is invoked when a client attempts to establish a conversation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool OnBeforeConnect(string topic)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>topic</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The topic name associated with this event.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to allow the connection, false otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="NDde_Server_DdeServer_OnBeforeConnect_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The default implementation accepts all connections.</p>
+</div>
+
+
+
+
+  <a id="NDde_Server_DdeServer_OnDisconnect_" data-uid="NDde.Server.DdeServer.OnDisconnect*"></a>
+
+  <h3 id="NDde_Server_DdeServer_OnDisconnect_NDde_Server_DdeConversation_" data-uid="NDde.Server.DdeServer.OnDisconnect(NDde.Server.DdeConversation)">
+  OnDisconnect(DdeConversation)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This is invoked when a client terminates a conversation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDisconnect(DdeConversation conversation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>conversation</code> <a class="xref" href="NDde.Server.DdeConversation.html">DdeConversation</a></dt>
+    <dd><p>The conversation associated with this event.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDde_Server_DdeServer_OnExecute_" data-uid="NDde.Server.DdeServer.OnExecute*"></a>
+
+  <h3 id="NDde_Server_DdeServer_OnExecute_NDde_Server_DdeConversation_System_String_" data-uid="NDde.Server.DdeServer.OnExecute(NDde.Server.DdeConversation,System.String)">
+  OnExecute(DdeConversation, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This is invoked when a client sends a command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual DdeServer.ExecuteResult OnExecute(DdeConversation conversation, string command)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>conversation</code> <a class="xref" href="NDde.Server.DdeConversation.html">DdeConversation</a></dt>
+    <dd><p>The conversation associated with this event.</p>
+</dd>
+    <dt><code>command</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The command to be executed.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDde.Server.DdeServer.html">DdeServer</a>.<a class="xref" href="NDde.Server.DdeServer.ExecuteResult.html">ExecuteResult</a></dt>
+    <dd><p>An <code>ExecuteResult</code> indicating the result.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="NDde_Server_DdeServer_OnExecute_NDde_Server_DdeConversation_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The default implementation returns <code>ExecuteResult.NotProcessed</code> to the client.</p>
+</div>
+
+
+
+
+  <a id="NDde_Server_DdeServer_OnPoke_" data-uid="NDde.Server.DdeServer.OnPoke*"></a>
+
+  <h3 id="NDde_Server_DdeServer_OnPoke_NDde_Server_DdeConversation_System_String_System_Byte___System_Int32_" data-uid="NDde.Server.DdeServer.OnPoke(NDde.Server.DdeConversation,System.String,System.Byte[],System.Int32)">
+  OnPoke(DdeConversation, string, byte[], int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This is invoked when a client sends data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual DdeServer.PokeResult OnPoke(DdeConversation conversation, string item, byte[] data, int format)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>conversation</code> <a class="xref" href="NDde.Server.DdeConversation.html">DdeConversation</a></dt>
+    <dd><p>The conversation associated with this event.</p>
+</dd>
+    <dt><code>item</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The item name associated with this event.</p>
+</dd>
+    <dt><code>data</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p>The data associated with this event.</p>
+</dd>
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The format of the data.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDde.Server.DdeServer.html">DdeServer</a>.<a class="xref" href="NDde.Server.DdeServer.PokeResult.html">PokeResult</a></dt>
+    <dd><p>A <code>PokeResult</code> indicating the result.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="NDde_Server_DdeServer_OnPoke_NDde_Server_DdeConversation_System_String_System_Byte___System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The default implementation returns <code>PokeResult.NotProcessed</code> to the client.</p>
+</div>
+
+
+
+
+  <a id="NDde_Server_DdeServer_OnRequest_" data-uid="NDde.Server.DdeServer.OnRequest*"></a>
+
+  <h3 id="NDde_Server_DdeServer_OnRequest_NDde_Server_DdeConversation_System_String_System_Int32_" data-uid="NDde.Server.DdeServer.OnRequest(NDde.Server.DdeConversation,System.String,System.Int32)">
+  OnRequest(DdeConversation, string, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This is invoked when a client attempts to request data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual DdeServer.RequestResult OnRequest(DdeConversation conversation, string item, int format)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>conversation</code> <a class="xref" href="NDde.Server.DdeConversation.html">DdeConversation</a></dt>
+    <dd><p>The conversation associated with this event.</p>
+</dd>
+    <dt><code>item</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The item name associated with this event.</p>
+</dd>
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The format of the data.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="NDde.Server.DdeServer.html">DdeServer</a>.<a class="xref" href="NDde.Server.DdeServer.RequestResult.html">RequestResult</a></dt>
+    <dd><p>A <code>RequestResult</code> indicating the result.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="NDde_Server_DdeServer_OnRequest_NDde_Server_DdeConversation_System_String_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The default implementation returns <code>RequestResult.NotProcessed</code> to the client.</p>
+</div>
+
+
+
+
+  <a id="NDde_Server_DdeServer_OnStartAdvise_" data-uid="NDde.Server.DdeServer.OnStartAdvise*"></a>
+
+  <h3 id="NDde_Server_DdeServer_OnStartAdvise_NDde_Server_DdeConversation_System_String_System_Int32_" data-uid="NDde.Server.DdeServer.OnStartAdvise(NDde.Server.DdeConversation,System.String,System.Int32)">
+  OnStartAdvise(DdeConversation, string, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This is invoked when a client attempts to initiate an advise loop.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool OnStartAdvise(DdeConversation conversation, string item, int format)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>conversation</code> <a class="xref" href="NDde.Server.DdeConversation.html">DdeConversation</a></dt>
+    <dd><p>The conversation associated with this event.</p>
+</dd>
+    <dt><code>item</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The item name associated with this event.</p>
+</dd>
+    <dt><code>format</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The format of the data.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to allow the advise loop, false otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="NDde_Server_DdeServer_OnStartAdvise_NDde_Server_DdeConversation_System_String_System_Int32__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The default implementation accepts all advise loops.</p>
+</div>
+
+
+
+
+  <a id="NDde_Server_DdeServer_OnStopAdvise_" data-uid="NDde.Server.DdeServer.OnStopAdvise*"></a>
+
+  <h3 id="NDde_Server_DdeServer_OnStopAdvise_NDde_Server_DdeConversation_System_String_" data-uid="NDde.Server.DdeServer.OnStopAdvise(NDde.Server.DdeConversation,System.String)">
+  OnStopAdvise(DdeConversation, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This is invoked when a client terminates an advise loop.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnStopAdvise(DdeConversation conversation, string item)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>conversation</code> <a class="xref" href="NDde.Server.DdeConversation.html">DdeConversation</a></dt>
+    <dd><p>The conversation associated with this event.</p>
+</dd>
+    <dt><code>item</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The item name associated with this event.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="NDde_Server_DdeServer_Pause_" data-uid="NDde.Server.DdeServer.Pause*"></a>
+
+  <h3 id="NDde_Server_DdeServer_Pause" data-uid="NDde.Server.DdeServer.Pause">
+  Pause()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This pauses all conversations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Pause()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="NDde_Server_DdeServer_Pause_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Pausing a conversation causes this object to queue events until the conversation resumes.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>This is thrown when the server is not registered.</p>
+</dd>
+    <dt><a class="xref" href="NDde.DdeException.html">DdeException</a></dt>
+    <dd><p>This is thrown when the conversations could not be paused.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDde_Server_DdeServer_Pause_" data-uid="NDde.Server.DdeServer.Pause*"></a>
+
+  <h3 id="NDde_Server_DdeServer_Pause_NDde_Server_DdeConversation_" data-uid="NDde.Server.DdeServer.Pause(NDde.Server.DdeConversation)">
+  Pause(DdeConversation)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This pauses the specified conversation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Pause(DdeConversation conversation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>conversation</code> <a class="xref" href="NDde.Server.DdeConversation.html">DdeConversation</a></dt>
+    <dd><p>The conversation to pause.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>This is thrown when conversation is a null reference.</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>This is thrown when the conversation is already paused or when the server is not registered.</p>
+</dd>
+    <dt><a class="xref" href="NDde.DdeException.html">DdeException</a></dt>
+    <dd><p>This is thrown when the conversation could not be paused.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDde_Server_DdeServer_Register_" data-uid="NDde.Server.DdeServer.Register*"></a>
+
+  <h3 id="NDde_Server_DdeServer_Register" data-uid="NDde.Server.DdeServer.Register">
+  Register()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This registers the service name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Register()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>This is thrown when the server is already registered.</p>
+</dd>
+    <dt><a class="xref" href="NDde.DdeException.html">DdeException</a></dt>
+    <dd><p>This is thrown when the service name could not be registered.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDde_Server_DdeServer_Resume_" data-uid="NDde.Server.DdeServer.Resume*"></a>
+
+  <h3 id="NDde_Server_DdeServer_Resume" data-uid="NDde.Server.DdeServer.Resume">
+  Resume()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This resumes all conversations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Resume()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>This is thrown when the server is not registered.</p>
+</dd>
+    <dt><a class="xref" href="NDde.DdeException.html">DdeException</a></dt>
+    <dd><p>This is thrown when the conversations could not be resumed.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDde_Server_DdeServer_Resume_" data-uid="NDde.Server.DdeServer.Resume*"></a>
+
+  <h3 id="NDde_Server_DdeServer_Resume_NDde_Server_DdeConversation_" data-uid="NDde.Server.DdeServer.Resume(NDde.Server.DdeConversation)">
+  Resume(DdeConversation)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This resumes the specified conversation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Resume(DdeConversation conversation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>conversation</code> <a class="xref" href="NDde.Server.DdeConversation.html">DdeConversation</a></dt>
+    <dd><p>The conversation to resume.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>This is thrown when conversation is a null reference.</p>
+</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>This is thrown when the conversation is not paused or when the server is not registered.</p>
+</dd>
+    <dt><a class="xref" href="NDde.DdeException.html">DdeException</a></dt>
+    <dd><p>This is thrown when the conversation could not be resumed.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="NDde_Server_DdeServer_Unregister_" data-uid="NDde.Server.DdeServer.Unregister*"></a>
+
+  <h3 id="NDde_Server_DdeServer_Unregister" data-uid="NDde.Server.DdeServer.Unregister">
+  Unregister()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This unregisters the service name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Unregister()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></dt>
+    <dd><p>This is thrown when the server is not registered.</p>
+</dd>
+  </dl>
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Dispatcher | Mexcel Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Dispatcher | Mexcel Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Mexcel Documentation">
+            Mexcel Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="FxDialogue.Utils.Dispatcher">
+
+
+
+  <h1 id="FxDialogue_Utils_Dispatcher" data-uid="FxDialogue.Utils.Dispatcher" class="text-break">
+Class Dispatcher  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="FxDialogue.html">FxDialogue</a>.<a class="xref" href="FxDialogue.Utils.html">Utils</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>FxDialogue.Utils.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Dispatcher</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Dispatcher</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="FxDialogue.Utils.MessageLoopDispatcher.html">MessageLoopDispatcher</a></div>
+      <div><a class="xref" href="FxDialogue.Utils.ThreadDispatcherBase.html">ThreadDispatcherBase</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="FxDialogue_Utils_Dispatcher__ctor_" data-uid="FxDialogue.Utils.Dispatcher.#ctor*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher__ctor" data-uid="FxDialogue.Utils.Dispatcher.#ctor">
+  Dispatcher()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dispatcher()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="FxDialogue_Utils_Dispatcher_IsClose_" data-uid="FxDialogue.Utils.Dispatcher.IsClose*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_IsClose" data-uid="FxDialogue.Utils.Dispatcher.IsClose">
+  IsClose
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsClose { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="FxDialogue_Utils_Dispatcher_AbortInvoke_" data-uid="FxDialogue.Utils.Dispatcher.AbortInvoke*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_AbortInvoke_System_IAsyncResult_" data-uid="FxDialogue.Utils.Dispatcher.AbortInvoke(System.IAsyncResult)">
+  AbortInvoke(IAsyncResult)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AbortInvoke(IAsyncResult asyncResult)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asyncResult</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncresult">IAsyncResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_BeginInvoke_" data-uid="FxDialogue.Utils.Dispatcher.BeginInvoke*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_BeginInvoke_System_Delegate_System_AsyncCallback_System_Object___" data-uid="FxDialogue.Utils.Dispatcher.BeginInvoke(System.Delegate,System.AsyncCallback,System.Object[])">
+  BeginInvoke(Delegate, AsyncCallback, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginInvoke(Delegate method, AsyncCallback callback, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>method</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.delegate">Delegate</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.asynccallback">AsyncCallback</a></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncresult">IAsyncResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_BeginInvokeSafe_" data-uid="FxDialogue.Utils.Dispatcher.BeginInvokeSafe*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_BeginInvokeSafe_System_Delegate_System_AsyncCallback_System_Object___" data-uid="FxDialogue.Utils.Dispatcher.BeginInvokeSafe(System.Delegate,System.AsyncCallback,System.Object[])">
+  BeginInvokeSafe(Delegate, AsyncCallback, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult BeginInvokeSafe(Delegate method, AsyncCallback callback, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>method</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.delegate">Delegate</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.asynccallback">AsyncCallback</a></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncresult">IAsyncResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_Close_" data-uid="FxDialogue.Utils.Dispatcher.Close*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_Close" data-uid="FxDialogue.Utils.Dispatcher.Close">
+  Close()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Close()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_CreateInvokeGuard_" data-uid="FxDialogue.Utils.Dispatcher.CreateInvokeGuard*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_CreateInvokeGuard_System_IAsyncResult_" data-uid="FxDialogue.Utils.Dispatcher.CreateInvokeGuard(System.IAsyncResult)">
+  CreateInvokeGuard(IAsyncResult)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dispatcher.InvokeGuard CreateInvokeGuard(IAsyncResult asyncResult)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asyncResult</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncresult">IAsyncResult</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="FxDialogue.Utils.Dispatcher.html">Dispatcher</a>.<a class="xref" href="FxDialogue.Utils.Dispatcher.InvokeGuard.html">InvokeGuard</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_Dispatch_" data-uid="FxDialogue.Utils.Dispatcher.Dispatch*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_Dispatch" data-uid="FxDialogue.Utils.Dispatcher.Dispatch">
+  Dispatch()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected DateTime Dispatch()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_EndInvoke_" data-uid="FxDialogue.Utils.Dispatcher.EndInvoke*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_EndInvoke_System_IAsyncResult_" data-uid="FxDialogue.Utils.Dispatcher.EndInvoke(System.IAsyncResult)">
+  EndInvoke(IAsyncResult)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object EndInvoke(IAsyncResult asyncResult)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asyncResult</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncresult">IAsyncResult</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_EventHandlerAsync_" data-uid="FxDialogue.Utils.Dispatcher.EventHandlerAsync*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_EventHandlerAsync_System_EventHandler_" data-uid="FxDialogue.Utils.Dispatcher.EventHandlerAsync(System.EventHandler)">
+  EventHandlerAsync(EventHandler)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandler EventHandlerAsync(EventHandler eventHandler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventHandler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_EventHandlerAsync_" data-uid="FxDialogue.Utils.Dispatcher.EventHandlerAsync*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_EventHandlerAsync__1_System_EventHandler___0__" data-uid="FxDialogue.Utils.Dispatcher.EventHandlerAsync``1(System.EventHandler{``0})">
+  EventHandlerAsync&lt;TEventArgs&gt;(EventHandler&lt;TEventArgs&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandler&lt;TEventArgs&gt; EventHandlerAsync&lt;TEventArgs&gt;(EventHandler&lt;TEventArgs&gt; eventHandler) where TEventArgs : EventArgs</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventHandler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;TEventArgs&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;TEventArgs&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEventArgs</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_EventHandlerSync_" data-uid="FxDialogue.Utils.Dispatcher.EventHandlerSync*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_EventHandlerSync_System_EventHandler_" data-uid="FxDialogue.Utils.Dispatcher.EventHandlerSync(System.EventHandler)">
+  EventHandlerSync(EventHandler)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandler EventHandlerSync(EventHandler eventHandler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventHandler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_EventHandlerSync_" data-uid="FxDialogue.Utils.Dispatcher.EventHandlerSync*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_EventHandlerSync__1_System_EventHandler___0__" data-uid="FxDialogue.Utils.Dispatcher.EventHandlerSync``1(System.EventHandler{``0})">
+  EventHandlerSync&lt;TEventArgs&gt;(EventHandler&lt;TEventArgs&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandler&lt;TEventArgs&gt; EventHandlerSync&lt;TEventArgs&gt;(EventHandler&lt;TEventArgs&gt; eventHandler) where TEventArgs : EventArgs</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventHandler</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;TEventArgs&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.eventhandler-1">EventHandler</a>&lt;TEventArgs&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEventArgs</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_Invoke_" data-uid="FxDialogue.Utils.Dispatcher.Invoke*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_Invoke_System_Delegate_System_Object___" data-uid="FxDialogue.Utils.Dispatcher.Invoke(System.Delegate,System.Object[])">
+  Invoke(Delegate, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object Invoke(Delegate method, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>method</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.delegate">Delegate</a></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_MakeAsyncCallback_" data-uid="FxDialogue.Utils.Dispatcher.MakeAsyncCallback*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_MakeAsyncCallback_System_AsyncCallback_" data-uid="FxDialogue.Utils.Dispatcher.MakeAsyncCallback(System.AsyncCallback)">
+  MakeAsyncCallback(AsyncCallback)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AsyncCallback MakeAsyncCallback(AsyncCallback asyncCallback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asyncCallback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.asynccallback">AsyncCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.asynccallback">AsyncCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_Notify_" data-uid="FxDialogue.Utils.Dispatcher.Notify*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_Notify" data-uid="FxDialogue.Utils.Dispatcher.Notify">
+  Notify()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract bool Notify()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_NotifyInvoke_" data-uid="FxDialogue.Utils.Dispatcher.NotifyInvoke*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_NotifyInvoke_System_Action_" data-uid="FxDialogue.Utils.Dispatcher.NotifyInvoke(System.Action)">
+  NotifyInvoke(Action)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NotifyInvoke(Action method)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>method</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_NotifyInvokeSafe_" data-uid="FxDialogue.Utils.Dispatcher.NotifyInvokeSafe*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_NotifyInvokeSafe_System_Action_" data-uid="FxDialogue.Utils.Dispatcher.NotifyInvokeSafe(System.Action)">
+  NotifyInvokeSafe(Action)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NotifyInvokeSafe(Action method)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>method</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_ScheduleInvoke_" data-uid="FxDialogue.Utils.Dispatcher.ScheduleInvoke*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_ScheduleInvoke_System_DateTime_System_Delegate_System_AsyncCallback_System_Object___" data-uid="FxDialogue.Utils.Dispatcher.ScheduleInvoke(System.DateTime,System.Delegate,System.AsyncCallback,System.Object[])">
+  ScheduleInvoke(DateTime, Delegate, AsyncCallback, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult ScheduleInvoke(DateTime utcTime, Delegate method, AsyncCallback callback, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>utcTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+    <dt><code>method</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.delegate">Delegate</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.asynccallback">AsyncCallback</a></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncresult">IAsyncResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FxDialogue_Utils_Dispatcher_ScheduleInvoke_" data-uid="FxDialogue.Utils.Dispatcher.ScheduleInvoke*"></a>
+
+  <h3 id="FxDialogue_Utils_Dispatcher_ScheduleInvoke_System_TimeSpan_System_Delegate_System_AsyncCallback_System_Object___" data-uid="FxDialogue.Utils.Dispatcher.ScheduleInvoke(System.TimeSpan,System.Delegate,System.AsyncCallback,System.Object[])">
+  ScheduleInvoke(TimeSpan, Delegate, AsyncCallback, params object[])
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IAsyncResult ScheduleInvoke(TimeSpan timeSpan, Delegate method, AsyncCallback callback, params object[] args)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>timeSpan</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></dt>
+    <dd></dd>
+    <dt><code>method</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.delegate">Delegate</a></dt>
+    <dd></dd>
+    <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.asynccallback">AsyncCallback</a></dt>
+    <dd></dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iasyncresult">IAsyncResult</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
